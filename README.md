@@ -1,6 +1,6 @@
 # Alke Wallet
 
-Proyecto de billetera digital desarrollado como parte del trabajo académico.
+Proyecto de billetera digital desarrollado como parte del trabajo del curso.
 
 ## Credenciales de acceso
 Para ingresar al sistema, utilizar las siguientes credenciales:
