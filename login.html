@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco Nacional</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="bg-primary text-white p-2">
+            <div class="container-fluid d-flex align-items-center justify-content-between">
+                <a class="navbar-brand text-white d-flex align-items-center" href="login.html">
+                    <img src="assets/logo.png" alt="Logo" width="50" height="50">
+                    <span class="fs-3">Banco Nacional</span>
+                </a>
+                <div class="d-flex align-items-center gap-4">
+                    <a class="nav-link text-white" href="login.html">Acceso Clientes</a>
+                    <a class="nav-link text-white" href="#">Servicios</a>
+                    <a class="nav-link text-white" href="#">Empresas</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container mb-3 mt-5 w-50" id="box">
+        <h2>Inicio de sesion</h2>
+        <form id="loginForm">
+            <div class="mb-1">
+                <label for="email" class="form-label">Email</label>
+                <input type="text" class="form-control" id="email" placeholder="Ingrese su usuario">
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="password" placeholder="Ingrese su contraseña">
+            </div>
+            <button type="submit" class="btn btn-primary" href="menu.html">Iniciar Sesión</button>
+        </form>
+    </div>
+    <div class="container d-flex justify-content-center">
+        <div id="miCarrusel" class="carousel slide " data-ride="carousel" style="width: 50%;">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/b2ap3_amp_abogado-acuerdo-adentro-1249158.jpg" class="d-block w-100"
+                        alt="Imagen 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Sea cliente de Banco Nacional</h5>
+                        <p>Aproveche las grandes oportunidades que ofrece nuestro banco.</p>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="assets/shutterstock_1190706394.jpg" class="d-block w-100" alt="Imagen 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Grandes oportunidades</h5>
+                        <p>Con las mejores tasas del mercado, su dinero esta en buenas manos</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/photo-1681826291722-70bd7e9e6fc3.jpg" class="d-block w-100" alt="Imagen 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>App Banco Nacional</h5>
+                        <p>Más simple, más rápido, para que estes siempre conectado</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#miCarrusel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+            </a>
+            <a class="carousel-control-next" href="#miCarrusel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+            </a>
+        </div>
+    </div>
+
+    <footer class="bg-primary text-white text-center p-4 mt-5">
+        <div class="container-fluid">
+            <p class="mb-2">&copy; 2026 Banco Nacional. Todos los derechos reservados.</p>
+            <p class="mb-0 small">
+                <a href="#" class="text-white text-decoration-none">Política de privacidad</a> |
+                <a href="#" class="text-white text-decoration-none">Términos y condiciones</a> |
+                <a href="#" class="text-white text-decoration-none">Contacto</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+<script src="js/js.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</html>

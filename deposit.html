@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco Nacional</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="bg-primary text-white p-2">
+            <div class="container-fluid d-flex align-items-center justify-content-between">
+                <a class="navbar-brand text-white d-flex align-items-center" href="login.html">
+                    <img src="assets/logo.png" alt="Logo" width="50" height="50">
+                    <span class="fs-3">Banco Nacional</span>
+                </a>
+                <div class="d-flex align-items-center gap-4">
+                    <a class="nav-link text-white" href="login.html">Acceso Clientes</a>
+                    <a class="nav-link text-white" href="#">Servicios</a>
+                    <a class="nav-link text-white" href="#">Empresas</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="pagina">
+        <h2>Depositar dinero</h2>
+
+        <form id="depositForm">
+            <div class=" container-fluid mb-3">
+                <label for="monto" class="form-label">Monto a depositar</label>
+                <input type="number" class="form-control" id="monto" placeholder="Ingrese el monto en pesos">
+            </div>
+            <button type="submit" class="btn btn-primary me-1">Depositar</button>
+            <a href="menu.html" class="btn btn-info ms-1">Menu principal</a>
+        </form>
+    </div>
+
+    <h3 id="saldoTexto">Saldo actual: $0</h3>
+    <footer class="bg-primary text-white text-center p-4 mt-5">
+        <div class="container-fluid">
+            <p class="mb-2">&copy; 2026 Banco Nacional. Todos los derechos reservados.</p>
+            <p class="mb-0 small">
+                <a href="#" class="text-white text-decoration-none">Política de privacidad</a> |
+                <a href="#" class="text-white text-decoration-none">Términos y condiciones</a> |
+                <a href="#" class="text-white text-decoration-none">Contacto</a>
+            </p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/js.js"></script>
+</body>
+
+</html>
